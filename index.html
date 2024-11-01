@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="RU" class="theme-light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>farmgame</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <a href="#" class="header__top-link">
+                    <svg width="182" height="30" role="img">
+                        <title>logo</title>
+                        <use xlink:href="img/sprite.svg#logo"></use>
+                    </svg>
+                </a>
+                <label id="switch" class="switch">
+                    <input type="checkbox" onchange="toggleTheme()" id="slider">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="header__main">
+                <div class="header__main-info">
+                    <h1 class="header__main-title">Legendary farm game in your hands</h1>
+                    <p class="header__main-subtitle">Play as a Helga the Cow to protect your <br> animal friends from
+                        the Farmer</p>
+                    <button class="header__main-btn">Play now</button>
+                </div>
+                <div class="header__main-img">
+                    <img src="img/header-cow.png" alt="funny-cow">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="inside">
+        <div class="container">
+            <h2 class="inside__header">What`s inside the game</h2>
+            <div class="inside__list">
+                <div class="inside__item">
+                    <div class="inside__img">
+                        <img src="img/1.png" alt="img">
+                    </div>
+                    <div class="inside__text">
+                        <div class="inside__title">Run as fast as you can</div>
+                        <p class="inside__subtitle">You have to be very fast to not be caught by the Farmer</p>
+                    </div>
+                </div>
+                <div class="inside__item">
+                    <div class="inside__img">
+                        <img src="img/2.png" alt="img">
+                    </div>
+                    <div class="inside__text">
+                        <div class="inside__title">Protect your animal friends</div>
+                        <p class="inside__subtitle">You have so many friends – protect them all!</p>
+                    </div>
+                </div>
+                <div class="inside__item">
+                    <div class="inside__img">
+                        <img src="img/3.png" alt="img">
+                    </div>
+                    <div class="inside__text">
+                        <div class="inside__title">Score as much points as you can</div>
+                        <p class="inside__subtitle">In the end this is all about points. Show your strength!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="more">
+        <div class="container">
+            <div class="more__wrapper">
+                <div class="more__wrapper-info">
+                    <h2 class="more__wrapper-title">More animals you save, closer your victory!</h2>
+                    <p class="more__wrapper-subtitle">Don`t miss the chance to make the <br> Farmer cry again. Animals, be strong!</p>
+                    <button class="more__wrapper-btn">Play now</button>
+                </div>
+                <div class="more__wrapper-img">
+                    <img src="img/animal.png" alt="funny-animal">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
